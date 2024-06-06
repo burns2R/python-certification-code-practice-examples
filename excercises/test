@@ -1,0 +1,14 @@
+import unittest
+
+class TestString(unittest.TestCase):
+    def test_string_contains(self):
+        string = "Hello, world!"
+        substring = "world"
+        self.assertTrue(substring in string)
+
+# Create a test suite from the TestString class
+suite = unittest.makeSuite(TestString)
+
+# Run the test suite
+runner = unittest.TextTestRunner()
+runner.run(suite)

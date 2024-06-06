@@ -1,0 +1,44 @@
+what are the basics of Perform different types of data validation tasks (e.g. consistency, constraints, range
+validation, uniqueness) in pandas
+
+Sure, here are some of the basic statements to perform different types of data validation tasks using pandas:
+
+**Consistency:**
+
+* To check if all of the values in a column are of the same type, you can use the `dtype` attribute of the DataFrame. For example, the following code checks if all of the values in the `age` column are integers:
+
+```python
+df['age'].dtype == int
+```
+
+* To check if all of the values in a column are unique, you can use the `unique()` method of the DataFrame. For example, the following code checks if all of the values in the `email` column are unique:
+
+```python
+df['email'].unique()
+```
+
+**Constraints:**
+
+* To check if the values in a column are within a certain range, you can use the `between()` method of the Series. For example, the following code checks if the values in the `age` column are between 0 and 100:
+
+```python
+df['age'].between(0, 100)
+```
+
+**Range validation:**
+
+* To check if the values in a column fall within a certain range, you can use the `isin()` method of the Series. For example, the following code checks if the values in the `age` column are within the range of 18 to 65:
+
+```python
+df['age'].isin(range(18, 66))
+```
+
+**Uniqueness:**
+
+* To check if each value in a column is unique, you can use the `unique()` method of the DataFrame. For example, the following code checks if each email address in the `email` column is unique:
+
+```python
+df['email'].unique()
+```
+
+I hope this helps! Let me know if you have other questions or requests.

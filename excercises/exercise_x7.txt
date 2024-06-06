@@ -1,0 +1,35 @@
+Sure, here are some of the basic ways to use the '@' character to decorate functions in unit testing in Python:
+
+* **@unittest.skip:** This decorator tells the unittest module to skip this function when running the unit tests. This can be useful if the function is not yet ready or if it is not applicable to the current test suite.
+* **@unittest.expectedFailure:** This decorator tells the unittest module to expect this function to fail. This can be useful if you are testing a function that you know is not working correctly.
+* **@unittest.skipIf:** This decorator tells the unittest module to skip this function if a certain condition is met. This can be useful if you want to skip a function that is only relevant to a specific platform or environment.
+* **@unittest.param:** This decorator can be used to pass a list of parameters to a function. This can be useful for testing a function with different input values.
+* **@pytest.fixture:** This decorator marks a function as being a fixture. Fixtures are variables that are shared between different unit tests. This can be useful for setting up common resources, such as databases or files.
+
+
+
+There are no Python statements that start with the character '@' that are specifically used for unit testing. However, there are a few ways to use the '@' character in Python to improve the readability and maintainability of your unit tests.
+
+One way to use the '@' character is to decorate functions with it. This can be used to mark functions as being unit tests. For example, the following function is decorated with the '@unittest.skip' decorator, which tells the unittest module to skip this function when running the unit tests:
+
+```python
+@unittest.skip('This function is not ready yet')
+def test_not_ready():
+    """
+    This function is not ready yet.
+    """
+    assert False
+```
+
+Another way to use the '@' character is to decorate variables with it. This can be used to mark variables as being fixtures. Fixtures are variables that are shared between different unit tests. For example, the following variable is decorated with the '@pytest.fixture' decorator, which tells the pytest module to create this variable before each unit test is run:
+
+```python
+@pytest.fixture
+def calculator():
+    """
+    Fixture that creates a calculator object.
+    """
+    return Calculator()
+```
+
+I hope this helps!

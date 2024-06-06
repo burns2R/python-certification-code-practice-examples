@@ -1,0 +1,40 @@
+Sure, here are the basic structures of HTML and JSON data:
+
+**HTML**
+
+The basic structure of an HTML document is as follows:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>This is my page</h1>
+</body>
+</html>
+```
+
+The `<!DOCTYPE html>` tag tells the browser that the document is an HTML document. The `<html>` tag marks the beginning of the HTML document. The `<head>` tag contains the metadata for the document, such as the title. The `<body>` tag contains the content of the document.
+
+HTML elements are enclosed in tags. The opening tag defines the element, and the closing tag closes the element. For example, the `<h1>` tag defines a heading, and the `</h1>` tag closes the heading.
+
+HTML attributes are used to provide additional information about an element. For example, the `title` attribute of the `<html>` tag specifies the title of the document.
+
+**JSON**
+
+The basic structure of JSON data is as follows:
+
+```
+{
+    "name": "John Doe",
+    "age": 30
+}
+```
+
+A JSON object is enclosed in curly braces (`{` and `}`). The key-value pairs are separated by commas. The key is a string, and the value can be a string, a number, an array, or another object.
+
+Arrays are enclosed in square brackets (`[` and `]`). The elements of an array are separated by commas.
+
+I hope this helps! Let me know if you have other questions or requests.

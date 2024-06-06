@@ -1,0 +1,14 @@
+In the context of semantic versioning, what does a change in the major version number typically indicate?
+Backward-compatible bug fixes
+Backward-compatible new features
+Backward-incompatible changes <---
+Documentation updates
+
+In the context of semantic versioning, a change in the 
+major version number typically indicates a significant, 
+breaking change to the software's API. This means that 
+the change is not backward compatible, and existing code 
+that relies on the old API may no longer work with the new 
+ersion. As a result, users should expect to make changes
+to their code before upgrading to a new major version 
+release.

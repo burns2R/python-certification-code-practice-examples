@@ -1,0 +1,20 @@
+You joined a new data engineering team working on the same repository for a data pipeline.
+You are informed that:
+
+• All changes are directly committed to the main branch
+• The pipeline is built and deployed from that main branch.
+
+What is a disadvantage of relying on a single branch in this strategy?
+ Options:
+It can delay development due to a centralized code review process.
+It can make it harder to track changes made to the project.
+It can add conflicts between different teams working on the project.
+-->It can make it harder to catch errors before the production environment. <---
+
+This is because any change to the main branch could potentially introduce a new bug into the pipeline code. This can make it difficult to debug and fix pipeline failures before they affect production.
+The other options are not necessarily true:
+A centralized code review process can help to improve the quality of the code, but it is not a requirement for using a single branch.
+It is possible to track changes made to the project even if all changes are committed to the main branch.
+Conflicts between different teams can occur regardless of the branching strategy being used.
+Overall, the biggest disadvantage of relying on a single branch for a data pipeline is that it can make it harder to catch errors before they affect production.
+
